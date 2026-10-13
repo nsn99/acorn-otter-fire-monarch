@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "树脂块微缩岛屿",
+      "hasCanvas": false,
+      "bodyTextLen": 56,
+      "bodyTextHash": "a85c7178ff246ed16c30de7cd567716ed82572a2a248a4480ae5b6fef2b563be",
+      "bodyTextPrefix": "RESIN DIORAMA 树脂块微缩岛屿 移动指针，整块像果冻一样晃。划过水面会起涟漪，闲下来时水也轻轻呼吸。",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "树脂块微缩岛屿",
+      "hasCanvas": false,
+      "bodyTextLen": 56,
+      "bodyTextHash": "a85c7178ff246ed16c30de7cd567716ed82572a2a248a4480ae5b6fef2b563be",
+      "bodyTextPrefix": "RESIN DIORAMA 树脂块微缩岛屿 移动指针，整块像果冻一样晃。划过水面会起涟漪，闲下来时水也轻轻呼吸。",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}
