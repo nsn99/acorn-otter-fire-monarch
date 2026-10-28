@@ -19,6 +19,10 @@ import {
 } from "./grok-pwa-shared.mjs";
 import { renderInstallPage } from "./grok-pwa-plugin.mjs";
 
+// Head injection reads the workspace's share-card identity from cwd. Run from an empty
+// directory so the repo's own site file cannot leak into these assertions.
+process.chdir(mkdtempSync(join(tmpdir(), "grok-pwa-cwd-")));
+
 const TEMPLATE_ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 
 test("injects before </head>", () => {

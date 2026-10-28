@@ -33,7 +33,6 @@ export function ParamsProvider({ children }: { children: ReactNode }) {
       jelly: { value: settings.calm ? 0.15 : 0.46, min: 0, max: 1, step: 0.01, label: "果冻软硬" },
       dof: { value: settings.calm ? 0.05 : 0.16, min: 0, max: 1, step: 0.01, label: "景深" },
     },
-    { persist: false },
   );
 
   const value = useMemo<SceneParams>(
